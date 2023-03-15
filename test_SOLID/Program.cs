@@ -1,4 +1,6 @@
 ﻿// See https://aka.ms/new-console-template for more information
+using static test_SOLID.OCP;
+
 Console.WriteLine("Hello, World!");
 
 /*
@@ -10,3 +12,6 @@ Console.WriteLine("Hello, World!");
  * D (Dependence Inversion Principle): 相依反轉原則 DIP
  */
 
+// OCP Demo
+CallOCP demo = new CallOCP();
+demo.RunDemoOCP();
