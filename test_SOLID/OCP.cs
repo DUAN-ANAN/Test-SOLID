@@ -8,7 +8,7 @@ namespace test_SOLID
 {
     internal class OCP
     {
-        /*
+       /*
        * 開放封閉原則:
        * 簡單來說 : 當對原有程式進行擴展時，在不更動到原始碼的前提完成擴展。
        * 開 : 開放擴展
